@@ -8,53 +8,18 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */
-    .navbar {
-      margin-bottom: 20px;
-      border-radius: 0;
-    }
-    
-    /* Add a gray background color and some padding to the footer */
-    footer {
-      background-color: #f2f2f2;
-      padding: 25px;
-    }
-    
- 
-  
-  input[type=text]:focus {
-    border: 3px solid;
-}
-
-  /* Hide the carousel text when the screen is less than 600 pixels wide */
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none;
-    }
-  }
-  
-  #search {
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-	border-bottom-right-radius: 5px;
-}
-  </style>
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css"/> 
 </head>
 <body>
-
-
-
 <div style="width:80%; margin:auto; margin-top:20px">
 <div align="center">
-	<img src="resources/img/Logo.png" width="100%">
+	<a href="index.jsp"><img src="resources/img/Logo.png" width="80%"></a>
 </div>
 
   
   
   
-<div class="container text-center" style=margin-top:30px>
+<div class="container text-center" style=margin-top:40px>
   
  
    <div style="width:100%; display:inline-block">
@@ -73,17 +38,18 @@
     </form>
    </div>
   
-  <div class="row">
-    <div class="col-sm-4">
-      <img src="resources/img/NewGame.png" class="img-responsive" style="width:100%" alt="Image">
+  <div class="row" style=margin-top:80px>
+
+    <div class="col-sm-3" >
+      <a href="newGameReview.do"><img src="resources/img/02.png" class="img-responsive" style="width:50%; margin-left:200px;" alt="Image"></a>
       
     </div>
-    <div class="col-sm-4">
-      <img src="resources/img/HotGame.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-3">
+      <a href="hotGameReview.do"><img src="resources/img/01.png" class="img-responsive" style="width:50%; margin-left:200px;" alt="Image"></a>
       
     </div>
-    <div class="col-sm-4">
-      <img src="resources/img/BetaTest.png" class="img-responsive" style="width:100%" alt="Image">
+    <div class="col-sm-3">
+      <a href="betaReview.do"><img src="resources/img/03.png" class="img-responsive" style="width:50%; margin-left:200px;" alt="Image"></a>
       
     </div>
     

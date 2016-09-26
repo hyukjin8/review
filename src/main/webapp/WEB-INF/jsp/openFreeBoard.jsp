@@ -1,7 +1,6 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Review Of God</title>
 <meta charset="utf-8">
@@ -12,79 +11,28 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<style>
-/* Remove the navbar's default margin-bottom and rounded borders */
-.navbar {
-	margin-bottom: 5px;
-	border-radius: 0;
-}
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
-@media ( max-width : 600px) {
-	.carousel-caption {
-		display: none;
-	}
-}
-
-table.type09 {
-	border-collapse: collapse;
-	
-	line-height: 1.5;
-}
-
-table.type09 thead th {
-	padding: 10px;
-	font-weight: bold;
-	vertical-align: top;
-	color: #ffffff;
-	border-bottom: 3px solid #2f2f1e;
-	background: #7a7a52;
-}
-
-table.type09 tbody th {
-	
-	padding: 10px;
-	font-weight: bold;
-	vertical-align: top;
-	border-bottom: 1px solid #ccc;
-	
-}
-
-table.type09 td {
-	
-	padding: 10px;
-	vertical-align: top;
-	border-bottom: 1px solid #ccc;
-}
-
-table.number {
-	text-align : center;
-	font-weight: bold;
-}
-</style>
+ <link rel="stylesheet" type="text/css" href="resources/css/style.css"/> 
 </head>
 <body>
 	<div>
-	<!-- ¸Ş´º¹Ù -->
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
+	<!-- ë©”ë‰´ë°” -->
+	<nav class="navbar navbar-default">
+		<div class="container-fluid" style="width:60%; margin: auto;">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse"
 					data-target="#myNavbar">
 					<span class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#"><b>¸®ºäÀÇ½Å</b></a>
+				<a class="navbar-brand" href="index.jsp"><b>ë¦¬ë·°ì˜ì‹ </b></a>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
-					<li class="active"><a href="openIntroducePage.do">Review
-							Of God?</a></li>
-					<li><a href="#">°øÁö»çÇ×/ÀÌº¥Æ®</a></li>
-					<li><a href="#">½ÅÀÛ°ÔÀÓ</a></li>
-					<li><a href="#">ÀÎ±â°ÔÀÓ</a></li>
-					<li><a href="#">º£Å¸Å×½ºÆ®</a></li>
-					<li><a href="#">ÀÚÀ¯°Ô½ÃÆÇ</a></li>
+					<li><a href="notice.do">ê³µì§€ì‚¬í•­/ì´ë²¤íŠ¸</a></li>
+					<li><a href="newGameReview.do">ì‹ ê·œê²Œì„</a></li>
+					<li><a href="hotGameReview.do">ì¸ê¸°ê²Œì„</a></li>
+					<li><a href="betaReview.do">ë² íƒ€í…ŒìŠ¤íŠ¸</a></li>
+					<li><a href="openFreeBoard.do">ììœ ê²Œì‹œíŒ</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
@@ -94,106 +42,62 @@ table.number {
 		</div>
 	</nav>
 
-	<!-- °Ô½ÃÆÇ¼Ò°³ -->
-	<div style="width: 45%; margin: auto">
-		<img alt="" src="resources/img/NewBoard.png" width="100%">
+	<!-- ê²Œì‹œíŒì†Œê°œ -->
+	<div style="width: 60%; margin: auto; padding:40px;">
+		<h1><b>ììœ ê²Œì‹œíŒ</b></h1>
 	</div>
 
-	<!-- °Ô½ÃÆÇ -->
+	<!-- ê²Œì‹œíŒ -->
 	<div class="container" style="width:100%">
 		<div style="width:60%; float:left; margin-left:22%">
 		<table class="type09">
 			<thead>
 				<tr>
-					<th width="5%">±Û¹øÈ£</th>
-					<th width="10%">ºĞ·ù</th>
-					<th width="15%">°ÔÀÓ¸í</th>
-					<th width="30%">Á¦¸ñ</th>
-					<th width="5%">°ÔÀÓÁ¡¼ö</th>
-					<th width="8%">°Ô½Ã³¯Â¥</th>
+					<th width="5%">ê¸€ë²ˆí˜¸</th>
+					<th width="35%">ì œëª©</th>
+					<th width="10%">ì‘ì„±ì</th>
+					<th width="15%">ê²Œì‹œë‚ ì§œ</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">*</th>
-					<td>°øÁö/ÀÌº¥Æ®</td>
-					<td>¿ÀÇÂ°øÁö</td>
-					<td>À¥ ÆäÀÌÁö ¿ÀÇÂ °øÁöÀÔ´Ï´Ù. ÀĞ¾îÁÖ¼¼¿ä</td>
-					<td>-</td>
-					<td>¿À´Ã</td>
+					<td>ì›¹ í˜ì´ì§€ ì˜¤í”ˆ ê³µì§€ì…ë‹ˆë‹¤. ì½ì–´ì£¼ì„¸ìš”</td>
+					<td>ê´€ë¦¬ì</td>
+					<td>ì˜¤ëŠ˜</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">5</th>
-					<td>½ÅÀÛ¸®ºä</td>
-					<td>Ä¿ÇÇÅ°¿ì±â</td>
-					<td>ÇÚµå¸ŞÀÌµå Ä¿ÇÇ..? Ä¿ÇÇ¸¦ Å°¿ö¼­ ¸¶¼Åº¸ÀÚ!</td>
-					<td>70/100</td>
-					<td>¿À´Ã</td>
+					<td>í•¸ë“œë©”ì´ë“œ ì»¤í”¼..? ì»¤í”¼ë¥¼ í‚¤ì›Œì„œ ë§ˆì…”ë³´ì!</td>
+					<td>ë°±ê³µì£¼</td>
+					<td>ì˜¤ëŠ˜</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">4</th>
-					<td>½ÅÀÛ¸®ºä</td>
-					<td>»çÀÌ´ÙÅ°¿ì±â</td>
-					<td>Ä¼ ¸»ÇÏ´Â °Å Âü »çÀÌ´Ù³×.. ±×·³ »çÀÌ´Ù Å°¿ì±â ÇÑÆÇ?</td>
-					<td>86/100</td>
+					<td>ìº¬ ë§í•˜ëŠ” ê±° ì°¸ ì‚¬ì´ë‹¤ë„¤.. ê·¸ëŸ¼ ì‚¬ì´ë‹¤ í‚¤ìš°ê¸° í•œíŒ?</td>
+					<td>ì˜¹ì£¼ë§Œì„¸</td>
 					<td>16-08-07</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">3</th>
-					<td>½ÅÀÛ¸®ºä</td>
-					<td>¹°Åë³õ°í¹öÆ¼±â</td>
-					<td>¹öÆ¼±âÇÏ¸é ³ª¾ß! ·©Å·À» »Ñ¼ÅÁÖÁö</td>
-					<td>5/100</td>
+					<td>ë²„í‹°ê¸°í•˜ë©´ ë‚˜ì•¼! ë­í‚¹ì„ ë¿Œì…”ì£¼ì§€</td>
+					<td>ë‹ˆì½”ë‹ˆì½”ë‹ˆ</td>
 					<td>16-08-07</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">2</th>
-					<td>½ÅÀÛ¸®ºä</td>
-					<td>¹°Åë³õ°í¹öÆ¼±â</td>
-					<td>¹öÆ¼±âÇÏ¸é ³ª¾ß! ·©Å·À» »Ñ¼ÅÁÖÁö</td>
-					<td>5/100</td>
+					<td>ë²„í‹°ê¸°í•˜ë©´ ë‚˜ì•¼! ë­í‚¹ì„ ë¿Œì…”ì£¼ì§€</td>
+					<td>ë‹ˆã…ƒ</td>
 					<td>16-08-07</td>
 				</tr>
-				<tr>
-					<th scope="row" class="number" style="text-align:center">1</th>
-					<td>½ÅÀÛ¸®ºä</td>
-					<td>¹°Åë³õ°í¹öÆ¼±â</td>
-					<td>¹öÆ¼±âÇÏ¸é ³ª¾ß! ·©Å·À» »Ñ¼ÅÁÖÁö</td>
-					<td>5/100</td>
-					<td>16-08-07</td>
-				</tr>
+
 			</tbody>
 		</table>
 		
 		
 		
 		</div>
-		
-		<!-- °Ôº¼·ç¼Ç °ÔÀÓ·©Å· APIÁ¤º¸¹Ş´Â Å×ÀÌºí -->
-		<div style="width:16%; float:right; background:red">
-			<table>
-				<thead>
-					<tr>
-						<th>¼øÀ§</th>
-						<th>°ÔÀÓ¸í</th>
-						<th>°³¹ß»ç</th>
-						<th>Ãâ½ÃÀÏ</th>
-					</tr>	
-				</thead>
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>¼¼ºì³ªÀÌÃ÷</td>
-						<td>³İ¸¶ºí</td>
-						<td>2010-08-05</td>
-					</tr>
-				</tbody>
-			
-			
-			</table>
-		
-		
-		</div>
+
 		
 		
 		
@@ -201,7 +105,10 @@ table.number {
 		
 	</div>
 	
-	
+		<!-- ê¸€ì“°ê¸° ë²„íŠ¼ -->
+	<div style="width:60%; margin: auto; padding:10px;">
+		<button style="float:right;" class="btn btn-default">ê¸€ì“°ê¸°</button>	
+	</div>
 	
 	</div>
 	

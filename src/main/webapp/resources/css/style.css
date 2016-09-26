@@ -1,0 +1,121 @@
+@CHARSET "EUC-KR";
+/* index.jsp */
+
+    .navbar {
+      margin-bottom: 20px;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+ 
+  
+  input[type=text]:focus {
+    border: 3px solid;
+}
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+  
+  #search {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.navbar {
+	margin-bottom: 5px;
+	border-radius: 0;
+}
+
+/* ³ª¸ÓÁö ¸®ºä.jsp */
+@media ( max-width : 600px) {
+	.carousel-caption {
+		display: none;
+	}
+}
+
+table.type09 {
+	border-collapse: collapse;
+	
+	line-height: 1.5;
+}
+
+table.type09 thead th {
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 3px solid #2f2f1e;
+	background: #ececec;
+}
+
+table.type09 tbody th {
+	
+	padding: 10px;
+	font-weight: bold;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+table.type09 td {
+	
+	padding: 10px;
+	vertical-align: top;
+	border-bottom: 1px solid #ccc;
+}
+
+table.number {
+	text-align : center;
+	font-weight: bold;
+}
+
+/* º°Á¡ css */
+
+.star_rating {font-size:0; letter-spacing:-4px;}
+.star_rating a {
+    font-size:22px;
+    letter-spacing:0;
+    display:inline-block;
+    margin-left:5px;
+    color:#ccc;
+    text-decoration:none;
+}
+.star_rating a:first-child {margin-left:0;}
+.star_rating a.on {color:#777;}
+
+/* ¸®ºä */
+.reviewEx {
+	
+	width:200px;
+	height:50px;
+}
+
+.w3-medium {
+	font-weight: bold;
+}
+
+.w3-large {
+	 cursor:pointer;
+}
+
+.reviewBox{
+	height:250px;
+}
+
+.reviewTitle {
+	height:100px;
+}
+
+.reviewContext{
+	padding:30px;
+}
