@@ -76,8 +76,13 @@
 	    	디테일 하나하나가 진짜 감동이고 손에서 못놓고 있다..
 	    	눈만 뜨면 해 근데 자꾸 튕기는거 인내심 테스트?ㅋㄷ</p>
 	    </div>
+	    
+	    	<div style="margin: auto; padding:10px; float:right;">
+				<a href="#demo" class="btn btn-default" data-toggle="collapse">수정</a>
+				<a href="#demo" class="btn btn-default" data-toggle="collapse">삭제</a>	
+			</div>
 	    	<!-- 댓글달기 버튼 -->
-			<div style="margin: auto; padding:10px;">
+			<div style="margin: auto; padding:70px;">
 				<a href="#demo" class="btn btn-default" data-toggle="collapse">댓글달기</a>	
 			</div>
 			
