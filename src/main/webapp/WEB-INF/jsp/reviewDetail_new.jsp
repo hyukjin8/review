@@ -57,8 +57,9 @@
 		
 		<div class="reviewBox">
 		<div class="col-sm-3">
-			<p class="w3-center"><img src="http://placehold.it/150x200"></p>
-			<p class="w3-center"><span>놀러와마이홈</span></p>
+			<p class="w3-center">
+			<img src="resources/img/myHome.PNG" style="height:150px; width:150px;"></p><br>
+			<p class="w3-center"><span>놀러와 마이홈</span></p>
 		</div>		
 	
 		<div class="col-sm-9" style="padding-left:50px;">
@@ -86,7 +87,7 @@
 		</div>
 		
 		
-				<!-- Posts -->
+		<!-- Posts -->
 		  <div style="width:17%; float:right;">
 		  <div class="w3-card-2 w3-margin">
 		    <div class="w3-container w3-padding">
@@ -94,31 +95,30 @@
 		    </div>
 		    <ul class="w3-ul w3-hoverable w3-white">
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
+		      <img src="resources/img/myHome.PNG" style="height:50px; width:50px;">
 		        <span class="w3-large" onclick="location.href='reviewDetail_new.do'">놀러와마이홈</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/dung.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">덩키우기</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/son.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">손오공디펜스</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/cookie.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">쿠키잼</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/boom.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">붐비치</span><br>     
 		      </li>
 		    </ul>
 		  </div>
 		</div>
+	
 	</div>
-	
-	
 
  </div>
 </body>

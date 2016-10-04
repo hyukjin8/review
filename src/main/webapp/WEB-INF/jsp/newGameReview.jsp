@@ -59,9 +59,10 @@
 		  <!-- First Photo Grid-->
 		  <div class="w3-row-padding">
 		    <div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90" class="w3-hover-opacity">
+		      <img src="resources/img/myHome.PNG" class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
 		     	 <span class="w3-large" onclick="location.href='gameDetail.do'">놀러와마이홈</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">꿀꿀이</span><br>
+       			 <span class="w3-medium">3.0</span> / <span class="w3-medium">꿀꿀이</span><br>
 		      <div class="w3-container w3-white">
 		        <div class="reviewEx">
 		        근데 솔직히 튕기는거 개오바야..
@@ -72,13 +73,14 @@
 		      </div>
 		    </div>
 		    <div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90"  class="w3-hover-opacity">
+		      <img src="resources/img/poket.PNG"  class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
 		     	 <span class="w3-large">당구의 신</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">끼끼</span><br>
+       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">미미</span><br>
 		      <div class="w3-container w3-white">
 		      
 		        <div class="reviewEx">
-		        근데 솔직히 튕기는거 개오바야..
+		        당구의 신은 미미라능 ㅇㅅㅇ
 		        </div>
 		        <div class="w3-col m8 s12">
 					<p><a href="/">자세히보기</a></p>
@@ -86,13 +88,14 @@
 		      </div>
 		    </div>
 		    <div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90"  class="w3-hover-opacity">
-		     	 <span class="w3-large">놀러와마이홈</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">끼끼</span><br>
+		      <img src="resources/img/pang.PNG"  class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
+		     	 <span class="w3-large">애니팡 사천성</span><br><br>
+       			 <span class="w3-medium">5.0</span> / <span class="w3-medium">겜돌이</span><br>
 		      <div class="w3-container w3-white">
 		      
 		        <div class="reviewEx">
-		        근데 솔직히 튕기는거 개오바야..
+		        업데이트하고 나니깐 맵이 더 좋아졌음
 		        </div>
 		        <div class="w3-col m8 s12">
 					<p><a href="/">자세히보기</a></p>
@@ -104,39 +107,44 @@
 		  <!-- Second Photo Grid-->
 		  <div class="w3-row-padding">
 		    <div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90"  class="w3-hover-opacity">
-		     	 <span class="w3-large">놀러와마이홈</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">끼끼</span><br>
+		      <img src="resources/img/jiji.PNG"  class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
+		     	 <span class="w3-large">slither.io</span><br><br>
+       			 <span class="w3-medium">1.0</span> / <span class="w3-medium">마쿨</span><br>
 		      <div class="w3-container w3-white">
 		      
 		        <div class="reviewEx">
-		        근데 솔직히 튕기는거 개오바야..
+		        별 한개도 아까워요 ㅠㅠ 지렁이가 맘대로 안움직여
 		        </div>
 		        <div class="w3-col m8 s12">
 					<p><a href="/">자세히보기</a></p>
 		        </div>
 		      </div>
-		    </div><div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90"  class="w3-hover-opacity">
-		     	 <span class="w3-large">놀러와마이홈</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">끼끼</span><br>
+		    </div>
+		    <div class="w3-third w3-container w3-margin-bottom">
+		      <img src="resources/img/muhan.PNG"  class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
+		     	 <span class="w3-large">무한의 계단</span><br><br>
+       			 <span class="w3-medium">5.0</span> / <span class="w3-medium">피카츄</span><br>
 		      <div class="w3-container w3-white">
 		      
 		        <div class="reviewEx">
-		        근데 솔직히 튕기는거 개오바야..
+		        정말 짱이고 어제 기분이 안좋았는데 좋아졌어요 엉엉
 		        </div>
 		        <div class="w3-col m8 s12">
 					<p><a href="/">자세히보기</a></p>
 		        </div>
 		      </div>
-		    </div><div class="w3-third w3-container w3-margin-bottom">
-		      <img src="http://placehold.it/90x90"  class="w3-hover-opacity">
-		     	 <span class="w3-large">놀러와마이홈</span><br><br>
-       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">끼끼</span><br>
+		    </div
+		    ><div class="w3-third w3-container w3-margin-bottom">
+		      <img src="resources/img/jachi.PNG"  class="w3-hover-opacity"
+		           style="height:90px; width:90px;">
+		     	 <span class="w3-large">자취생키우기</span><br><br>
+       			 <span class="w3-medium">4.0</span> / <span class="w3-medium">치킨</span><br>
 		      <div class="w3-container w3-white">
 		      
 		        <div class="reviewEx">
-		        근데 솔직히 튕기는거 개오바야..
+		        으앙 너무 재밌는데 개발자님 버그났어요ㅠ
 		        </div>
 		        <div class="w3-col m8 s12">
 					<p><a href="/">자세히보기</a></p>
@@ -177,24 +185,24 @@
 		    </div>
 		    <ul class="w3-ul w3-hoverable w3-white">
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
+		      <img src="resources/img/myHome.PNG" style="height:50px; width:50px;">
 		        <span class="w3-large" onclick="location.href='reviewDetail_new.do'">놀러와마이홈</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/dung.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">덩키우기</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/son.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">손오공디펜스</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/cookie.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">쿠키잼</span><br>     
 		      </li>
 		      <li class="w3-padding-16">
-		        <img src="http://placehold.it/50x50" />
-		        <span class="w3-large">놀러와마이홈</span><br>     
+		      <img src="resources/img/boom.PNG" style="height:50px; width:50px;">
+		        <span class="w3-large">붐비치</span><br>     
 		      </li>
 		    </ul>
 		  </div>

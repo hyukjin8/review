@@ -12,6 +12,9 @@
 <script
 	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="resources/css/style.css"/> 
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
 <body>
 	<div>
@@ -60,34 +63,44 @@
 			</thead>
 			<tbody>
 				<tr>
-					<th scope="row" class="number" style="text-align:center">*</th>
+					<th scope="row" class="number" style="text-align:center">5</th>
 					<td>웹 페이지 오픈 공지입니다. 읽어주세요</td>
 					<td>오늘</td>
 				</tr>
 				<tr>
-					<th scope="row" class="number" style="text-align:center">5</th>
-					<td>핸드메이드 커피..? 커피를 키워서 마셔보자!</td>
-					<td>오늘</td>
-				</tr>
-				<tr>
 					<th scope="row" class="number" style="text-align:center">4</th>
-					<td>캬 말하는 거 참 사이다네.. 그럼 사이다 키우기 한판?</td>
-					<td>16-08-07</td>
+					<td>홈 페이지 리뉴얼 및 개선사항</td>
+					<td>16-09-08</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">3</th>
-					<td>버티기하면 나야! 랭킹을 뿌셔주지</td>
-					<td>16-08-07</td>
+					<td>욕설/비방 글 회원처리</td>
+					<td>16-05-15</td>
 				</tr>
 				<tr>
 					<th scope="row" class="number" style="text-align:center">2</th>
-					<td>버티기하면 나야! 랭킹을 뿌셔주지</td>
-					<td>16-08-07</td>
+					<td>게임 검색 관련 오류사항</td>
+					<td>16-03-07</td>
+				</tr>
+				<tr>
+					<th scope="row" class="number" style="text-align:center">1</th>
+					<td>홈 페이지 이용 안내</td>
+					<td>16-02-05</td>
 				</tr>
 
 			</tbody>
 		</table>
 		
+				  <!-- Pagination -->
+		  <div class="w3-center w3-padding-32">
+		    <ul class="w3-pagination">
+		      <li><a class="w3-black" href="#">1</a></li>
+		      <li><a class="w3-hover-black" href="#">2</a></li>
+		      <li><a class="w3-hover-black" href="#">3</a></li>
+		      <li><a class="w3-hover-black" href="#">4</a></li>
+		      <li><a class="w3-hover-black" href="#">»</a></li>
+		    </ul>
+		  </div>
 		
 		
 		</div>
